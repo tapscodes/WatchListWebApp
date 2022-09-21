@@ -1,6 +1,8 @@
 # WatchListWebApp
 WatchList in WebApp form made with PYQT6
 
+Currently a WIP.
+
 # Open/Use Project Files Yourself
 
 1. Get [Python 3.9.0](https://www.python.org/downloads/release/python-390/)
