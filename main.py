@@ -37,11 +37,16 @@ class Ui_main_window(object):
 
         self.retranslateUi(main_window)
         QtCore.QMetaObject.connectSlotsByName(main_window)
+        
+        self.button.clicked.connect(self.showPopup)
 
     def retranslateUi(self, main_window):
         _translate = QtCore.QCoreApplication.translate
         main_window.setWindowTitle(_translate("main_window", "MainWindow"))
         self.button.setText(_translate("main_window", "PushButton"))
+        
+    def showPopup(self):
+        self.text_display.setText(self.text_edit)
 
 
 if __name__ == "__main__":
